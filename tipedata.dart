@@ -1,16 +1,13 @@
-
-import 'dart:collection';
-
 void main() {
   // String nama = "Gary";
   // var nama1 = "Gary";
   // int angka = 100;
   // var angka1 = 100;
 
-   String nama = "Deka";
-   int umur = 28;
-   double Berat = 56.5;
- String Kota = "Pontianak";
+//    String nama = "Deka";
+//    int umur = 28;
+//    double Berat = 56.5;
+//  String Kota = "Pontianak";
 
   // print("Nama Saya $nama Umur saya $umur Berat $Berat Tinggal di $Kota");
 
@@ -19,10 +16,10 @@ void main() {
   // string, var, dynamic
   // dynamic dan var bisa untuk int dan string
 
-   int angka1  = 20;
-   double angka2 = 20.5;
-   num hasil = 0;
-   hasil = angka1 + angka2;
+  //  int angka1  = 20;
+  //  double angka2 = 20.5;
+  //  num hasil = 0;
+  //  hasil = angka1 + angka2;
 
   // dynamic nama = "Wendy";
   // dynamic angka3 = 25;
