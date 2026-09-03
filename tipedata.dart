@@ -81,6 +81,17 @@ void main() {
     {"nama" : "bubuk teh", "harga" : 15000, "stok" : 200}
   ];
 
-   print(data[3]);
+   print("Nama produk ${data.elementAt(2)['nama']}, Harga ${data.elementAt(2)['harga']},  stok ${data.elementAt(2)['stok']}");
 
+
+  // Final tidak wajib ada nilai awal
+  final String nama = 'deka';
+  // atau
+  final String nama1;
+  nama1 = 'Deka';
+
+  //const wajib harus ada nilai awal
+  const String nama2 = 'sindy';
+
+  //persamaannya hanya bisa 1 kali
 }
