@@ -47,12 +47,40 @@ void main() {
   //print("Nama saya {$data[1]} umur {$data[2]} prodi {$data[3]}");
 
   //Untuk menambahkan data seperti ini
-  List data = [];
-  data.add('Mery');
-  data.add(100);
-  data.add('sistem informasi');
+  //List data = [];
+  //data.add('Mery');
+  //data.add(100);
+  //data.add('sistem informasi');
   //Jika ingin print data dari data add seperti ini
   
+  //print(data);
 
-  print(data);
+
+  // set sama seperti list, jika tidak dikhususkan seperti khusus untuk integer/string maka itu bebeas
+  // Set mhs = {'Dona', 'Martin', 'Gary', 'Windy', 'Gary', 'Windy'};
+  // // Cara print khusus untuk print nama Gary
+  //  print("Nama saya ${mhs.elementAt(2)}");
+
+
+  // list => array index angka data [0]
+  // map => array index bisa string bisa integer
+  
+  //Map mhs = {"nama" : "Agus", "umur" : 30, "prodi" : "SI"};
+
+  //print(mhs['nama']);
+
+  //print("Nama saya ${mhs['nama']}, umur ${mhs['umur']}, prodi ${mhs['prodi']}");
+
+
+  // Yang dibawah merupakan pergabungan antara list dan Map
+  List data = [
+    {"nama" : "kopi A", "harga" : 300000, "stok" : 100},
+    {"nama" : "gula", "harga" : 20000, "stok" : 10},
+    {"nama" : "cabe", "harga" : 10000, "stok" : 30},
+    {"nama" : "bawang", "harga" : 100000, "stok" : 10},
+    {"nama" : "bubuk teh", "harga" : 15000, "stok" : 200}
+  ];
+
+   print(data[3]);
+
 }
